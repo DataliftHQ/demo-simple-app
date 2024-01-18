@@ -12,8 +12,8 @@ service:
 
 # Define the containers that make up this service
 containers:
-  frontend:
-    image: datalifthq/demo-simple-app:${value.app.tag}
+  app:
+    image: ghcr.io/datalifthq/demo-simple-app:${value.app.tag}
     variables:
       PORT: "8080"
       DB_DATABASE: ${resources.db.name}
