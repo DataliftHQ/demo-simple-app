@@ -24,5 +24,6 @@ go.work
 tmp/
 build/
 
+# Misc
 .idea/
 .DS_STORE
