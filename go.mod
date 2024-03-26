@@ -3,7 +3,7 @@ module go.datalift.io/demo-simple-app
 go 1.21.6
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.0
+	github.com/gofiber/fiber/v2 v2.52.3
 	github.com/gofiber/template/html/v2 v2.1.0
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/lib/pq v1.10.9
